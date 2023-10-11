@@ -1,0 +1,14 @@
+{
+  "name": "pixelshield",
+  "version": "1.0.0",
+  "description": "Image StegnoGraphy using lsb algorithm",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "author": "Amritanshu",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.0"
+  }
+}
