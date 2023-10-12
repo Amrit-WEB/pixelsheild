@@ -2,7 +2,7 @@
   "name": "pixelshield",
   "version": "1.0.0",
   "description": "Image StegnoGraphy using lsb algorithm",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html"
