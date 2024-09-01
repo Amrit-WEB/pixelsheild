@@ -21,10 +21,12 @@ function ImageLoaded(imageSrc, ele) {
   // Display the loaded image, clear existing output, and enable encoding/decoding
 
   if (ele === "encry-preview-upload") {
+    elements.encryptKeyBox.style.display = "flex";
     elements.previewImageEncry.setAttribute("src", imageSrc);
     elements.encryptBtn.disabled = false;
   }
   if (ele === "decry-preview-upload") {
+    elements.decryptKeyBox.style.display = "flex";
     elements.previewImageDecry.setAttribute("src", imageSrc);
     elements.decryptBtn.disabled = false;
   }

@@ -1,8 +1,7 @@
 {
   "name": "pixelshield",
   "version": "1.0.0",
-  "description": "Image StegnoGraphy using lsb algorithm",
-  "main": "index.html",
+  "description": "Image StegnoGraphy using lsb algorithm and cryptography useing AES ",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html"
@@ -11,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.10.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
   }
 }

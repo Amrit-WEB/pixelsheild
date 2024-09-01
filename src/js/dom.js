@@ -21,6 +21,13 @@ export const elements = {
   messageBoxEncry: document.getElementById("message-box-encry"),
   messageBoxDecry: document.getElementById("message-box-decry"),
 
+  //key box
+  encryptKeyBox: document.getElementById("encrypt-key-box"),
+  decryptKeyBox: document.getElementById("decrypt-key-box"),
+  //input key
+  inputKeyEncry: document.getElementById("textEncryptKey"),
+  inputKeyDecry: document.getElementById("textDecryptKey"),
+
   //text input
   inputText: document.getElementById("inputText"),
 };
